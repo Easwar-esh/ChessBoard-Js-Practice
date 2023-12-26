@@ -1,0 +1,43 @@
+.debug{
+    border: 1px solid blue;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+    color: white;
+}
+
+.row,.column{
+    margin: 10px 10px 10px 0px;
+}
+
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board{
+    /* width:500px; */
+    /* height:500px; */
+    margin-top: 50px;
+    /* display: grid; */
+    /* grid-column: 1; */
+    /* position: relative; */
+    /* border: 1px solid blue; */
+}
+
+.box{
+    border:1px solid black;
+    height:100px;
+    width:100px;
+    /* position: absolute; */
+    display: inline-block;
+    /* margin-right: -100px; */
+    background-color: black;
+    /* margin: 0; */
+}
